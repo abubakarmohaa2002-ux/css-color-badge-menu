@@ -1,0 +1,86 @@
+/*
+  🧠 Project 1 — Color Badge Menu
+*/
+
+/* STEP 1 — Set the page background and base font */
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* STEP 2 — Center the card */
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* STEP 3 — Card background + spacing */
+
+.card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  width: 400px;
+}
+
+/* STEP 4 — Text colors for hierarchy */
+
+.title {
+  color: #222;
+}
+
+.subtitle {
+  color: #777;
+}
+
+/* STEP 5 — Badge colors (meaning) */
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge--good {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.badge--warn {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badge--bad {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* Extra styling for cleaner layout */
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.note {
+  margin-top: 20px;
+}
+
+.hint {
+  font-weight: bold;
+}
